@@ -20,6 +20,10 @@ namespace _6___Estruturas_Definidas_Pelo_Usuario
             PosicaoGPS posicao3 = new PosicaoGPS(13.4, 29.8);
 
             Console.WriteLine(posicao3);
+
+            Carro carros = new Carro("Fiat", "Uno", marcas.chevrollet);
+
+            Console.WriteLine(carros);
         }
     }
 
@@ -49,5 +53,31 @@ namespace _6___Estruturas_Definidas_Pelo_Usuario
         {
             return $"Latitude: {Latitude}, Longitude: {Longitude}";
         }
+    }
+
+    struct Carro
+    {
+        public string nome;
+        public string modelo;
+        public marcas marca;
+
+        public Carro(string nome, string modelo, marcas marca)
+        {
+            this.nome = nome;
+            this.modelo = modelo;
+            this.marca = marca;
+        }
+
+        public override string ToString()
+        {
+            return $"Nome: {nome}, Modelo: {modelo}, Marca: {marca}";
+        }
+
+    }
+
+    enum marcas
+    {
+        fiat,
+        chevrollet
     }
 }
