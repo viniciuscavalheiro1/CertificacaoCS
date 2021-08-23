@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Interfaces", "10 - Int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Envio Whatapp", "Envio Whatapp\Envio Whatapp.csproj", "{0612E4C1-0339-4C50-9F9E-7B2A5F2E72B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Objetos", "11 - Objetos\11 - Objetos.csproj", "{634A313F-89BC-4CE9-A757-35B263DE4A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 - Objetos", "11 - Objetos\11 - Objetos.csproj", "{634A313F-89BC-4CE9-A757-35B263DE4A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - Dynamic", "12 - Dynamic\12 - Dynamic.csproj", "{8C3AEE13-86E1-447E-8305-7D99F53D8420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{634A313F-89BC-4CE9-A757-35B263DE4A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{634A313F-89BC-4CE9-A757-35B263DE4A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{634A313F-89BC-4CE9-A757-35B263DE4A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3AEE13-86E1-447E-8305-7D99F53D8420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3AEE13-86E1-447E-8305-7D99F53D8420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3AEE13-86E1-447E-8305-7D99F53D8420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3AEE13-86E1-447E-8305-7D99F53D8420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
