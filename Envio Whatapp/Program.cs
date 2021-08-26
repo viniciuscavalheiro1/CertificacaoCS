@@ -10,21 +10,28 @@ namespace Envio_Whatapp
     {
         static void Main(string[] args)
         {
-            
-            TwilioClient.Init(
-               Environment.GetEnvironmentVariable("AC7c3bc9d81989148f65486f58111e5276"),
-               Environment.GetEnvironmentVariable("d9c98eeff747fc5d103f280aa6c1ffab")
-            );
-
-            var message = MessageResource.Create(
-               from: new PhoneNumber("whatsapp:+17542276336"),
-               to: new PhoneNumber("whatsapp:+5588998731443"),
-               body: "Ahoy from Twilio!"
-            );
-
-            Console.WriteLine("Message SID: " + message.Sid);
-
+            SendSms().Wait();
+            Console.Write("Press any key to continue.");
+            Console.ReadKey();
         }
+
+        static async Task SendSms()
+        {
+            // Find your Account Sid and Token at twilio.com/console
+            const string accountSid = "AC7c3bc9d81989148f65486f58111e5276";
+            const string authToken = "d9c98eeff747fc5d103f280aa6c1ffab";
+
+            TwilioClient.Init(accountSid, authToken);
+
+            var message = await MessageResource.CreateAsync(
+                body: "This is the ship that made the Kessel Run in fourteen parsecs?",
+                from: new Twilio.Types.PhoneNumber("+15017122661"),
+                to: new Twilio.Types.PhoneNumber("+5588998731443")
+            );
+
+            Console.WriteLine(message.Sid);
+        }
+        
     }
 
    
