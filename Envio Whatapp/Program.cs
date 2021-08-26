@@ -10,17 +10,19 @@ namespace Envio_Whatapp
     {
         static void Main(string[] args)
         {
-            var accountSid = "ACf49965a4223eaaeb569b4fd25dc869bf";
-            var authToken = "0f44074f58ae78475bc4744b56de54ac";
-            TwilioClient.Init(accountSid, authToken);
+            
+            TwilioClient.Init(
+               Environment.GetEnvironmentVariable("AC7c3bc9d81989148f65486f58111e5276"),
+               Environment.GetEnvironmentVariable("d9c98eeff747fc5d103f280aa6c1ffab")
+            );
 
-            var messageOptions = new CreateMessageOptions(
-                new PhoneNumber("whatsapp:+5586981767434"));
-            messageOptions.From = new PhoneNumber("whatsapp:+14155238886");
-            messageOptions.Body = "*Reunião de estagiários 10:00*";
+            var message = MessageResource.Create(
+               from: new PhoneNumber("whatsapp:+17542276336"),
+               to: new PhoneNumber("whatsapp:+5588998731443"),
+               body: "Ahoy from Twilio!"
+            );
 
-            var message = MessageResource.Create(messageOptions);
-            Console.WriteLine(message.Body);
+            Console.WriteLine("Message SID: " + message.Sid);
 
         }
     }
