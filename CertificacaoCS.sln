@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 - Argumentos Nomeados", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - Metodos de extensão", "16 - Metodos de extensão\16 - Metodos de extensão.csproj", "{DF672126-5F56-4D28-B63A-DB6CB37654A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - Sobrecarga de Metodos", "17 - Sobrecarga de Metodos\17 - Sobrecarga de Metodos.csproj", "{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DF672126-5F56-4D28-B63A-DB6CB37654A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF672126-5F56-4D28-B63A-DB6CB37654A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF672126-5F56-4D28-B63A-DB6CB37654A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
