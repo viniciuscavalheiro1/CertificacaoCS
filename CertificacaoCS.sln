@@ -33,11 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 - Strings", "13 - String
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14 - Metodos", "14 - Metodos\14 - Metodos.csproj", "{A9C7976D-0844-49D5-B8FE-2EE1960389F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 - Argumentos Nomeados", "15 - Argumentos Nomeados\15 - Argumentos Nomeados.csproj", "{03234DE2-71AD-4B1C-A456-82C84DD80250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 - Argumentos Nomeados", "15 - Argumentos Nomeados\15 - Argumentos Nomeados.csproj", "{03234DE2-71AD-4B1C-A456-82C84DD80250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - Metodos de extensão", "16 - Metodos de extensão\16 - Metodos de extensão.csproj", "{DF672126-5F56-4D28-B63A-DB6CB37654A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16 - Metodos de extensão", "16 - Metodos de extensão\16 - Metodos de extensão.csproj", "{DF672126-5F56-4D28-B63A-DB6CB37654A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - Sobrecarga de Metodos", "17 - Sobrecarga de Metodos\17 - Sobrecarga de Metodos.csproj", "{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17 - Sobrecarga de Metodos", "17 - Sobrecarga de Metodos\17 - Sobrecarga de Metodos.csproj", "{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18 - Estrutura do projeto", "18 - Estrutura do projeto\18 - Estrutura do projeto.csproj", "{5BB7D6BC-FD40-48F0-A47D-6E0B9DE1F39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranças", "Heranças\Heranças.csproj", "{E2E2D987-3C84-4E20-A9BE-B8D1EACC1013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DBBA433-E2BF-42ED-BAF8-D5FF50A2724B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB7D6BC-FD40-48F0-A47D-6E0B9DE1F39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB7D6BC-FD40-48F0-A47D-6E0B9DE1F39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB7D6BC-FD40-48F0-A47D-6E0B9DE1F39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB7D6BC-FD40-48F0-A47D-6E0B9DE1F39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E2D987-3C84-4E20-A9BE-B8D1EACC1013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E2D987-3C84-4E20-A9BE-B8D1EACC1013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E2D987-3C84-4E20-A9BE-B8D1EACC1013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E2D987-3C84-4E20-A9BE-B8D1EACC1013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
